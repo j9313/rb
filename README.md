@@ -1,15 +1,20 @@
-# rb - Roblox Hangout Space
+# rb — Roblox Hangout Space
 
-Rec Room-style social hangout.
+Rec Room style social lounge.
 
-## Features
-- Spawn points
-- Lounge seating
-- Basic social interactions
+## What’s included
+- Auto-built lounge (floor, walls, ceiling, rug, table)
+- 5 seats with proximity prompts
+- Soft ambient lighting + music
+- Spawn setup
 
-## Setup
-1. Open in Roblox Studio
-2. Add seats, spawn locations, and scripts
-3. Publish the place
+## How to use
+1. Open Roblox Studio
+2. Create a new Baseplate place
+3. Copy the scripts from `src/` into the matching services:
+   - `ServerScriptService` scripts → ServerScriptService
+   - `StarterPlayerScripts` → StarterPlayer > StarterPlayerScripts
+4. Press Play — the lounge builds itself
+5. Publish when ready
 
-Use Rojo for git sync if desired.
+Replace the music SoundId with any free Roblox audio you like.
